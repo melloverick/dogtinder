@@ -1,0 +1,198 @@
+body{
+    font-family: 'Montserrat ', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+} 
+    
+p{
+    color: #8f8f8f;
+}
+
+/* headings */
+.big-heading{
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+    width: 90%;
+    
+}
+.section-heading{
+    line-height: 5rem;    
+    font-size: 3rem;
+}
+
+#title{
+    background-color: #ff4c68;
+    text-align: left;
+}
+.container-fluid{
+    padding: 5% 15% 9% 15%;
+}
+.doggy{
+    transform: rotate(25deg);
+    position: absolute;
+    width: 25%;
+    right: 20%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    /* font-weight: bold; */
+    
+}
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+
+}
+.nav-item{
+    padding: 0 20px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Monsterrat-light',sans-serif;
+    
+}
+.dl-button{
+    margin:5% 6% 2% 0% ;
+    font-size: 1.3rem;
+}
+
+/* features */
+
+#features{
+    line-height: 1.5rem;
+    padding: 7% 15%;
+    
+    background-color: white;
+    height: 700px;
+    position: relative;
+}
+
+.feature-img{
+    position: relative;
+    padding-left: auto;
+    color: #ef8172;
+    margin-bottom: 1.5rem   ;
+}
+.feature-img:hover{
+    color: #ff4c68;
+}
+.feature-box{
+    padding: 6%;
+    margin-top: 10px;
+    
+}   
+.feature-name{
+    font-size: 1.5rem;
+}
+.aim{
+    margin: 60px 2%;
+}
+
+/* Testimonials */
+
+#testimonials
+{
+    background-color: #ff4c68;
+    color: white;
+    
+}
+.testimonial-text{
+    line-height: 5rem;    
+    font-size: 3rem;
+
+}
+.pebbles{
+    margin: 30px;
+    border-radius: 100%;
+    width: 15%;
+} 
+
+
+#press{
+    background-color: #ff4c68;
+    padding-bottom: 50px;
+}
+
+
+.press-icon{
+    width: 13%;
+    margin: 0px 30px ;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+    background-color: #fff;
+}
+.price-title{
+    font-size: 2rem;
+}
+
+.price-text{
+    line-height: 5rem;    
+    font-size: 3rem;
+}
+.price-start{
+    padding-bottom: 50px;
+}
+
+.card{
+    /* margin: 50px; */
+    border: solid grey;
+    /* margin-left: 50px; */
+    height: 427px;
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 900;
+    padding: 50px 10px 100px 10px;
+}
+.cta-head{
+    font-size: 3.5rem;
+    line-height: 5rem;
+    position: relative;
+    width:80%;
+    margin: 3% auto;
+}
+#footer{
+    background-color: #ffffff;
+    padding: 70px 100px 80px 100px;
+}
+.cta-btn{
+    margin: 2% auto;
+    margin-right: 20px;
+}
+.footer-logo{
+    color: #2c2727;
+    text-decoration: none;
+    padding: 15px;
+}
+
+@media (max-width:1028px)
+{
+    #title{
+        text-align: center;
+    }
+    .doggy{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+    #features{
+        height: auto;
+    }
+}
